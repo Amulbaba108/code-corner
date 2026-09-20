@@ -1,0 +1,35 @@
+# Compiled output from run.py and from compiling by hand
+a.out
+*.o
+*.obj
+*.exe
+*.class
+target/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# Editors and AI assistants
+.vscode/
+.idea/
+*.swp
+AGENTS.md
+CLAUDE.md
+.claude/
+.cursor/
+.cursorrules
+.aider*
+.github/copilot-instructions.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and logs
+.env
+.env.*
+!.env.example
+*.log

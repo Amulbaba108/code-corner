@@ -1,0 +1,5 @@
+racecar | true
+hello | false
+level | true
+abcba | true
+ab | false

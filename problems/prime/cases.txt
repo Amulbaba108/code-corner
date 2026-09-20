@@ -1,0 +1,7 @@
+2 | prime
+3 | prime
+17 | prime
+20 | not prime
+1 | not prime
+15 | not prime
+1000000007 | prime
