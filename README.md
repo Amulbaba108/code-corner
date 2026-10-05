@@ -4,12 +4,24 @@ Small programming problems, each solved in a few different languages, plus a scr
 
 ## Running the checks
 
-```
-python3 run.py            # every problem
-python3 run.py prime      # just one
+```text
+python3 run.py                    # every problem
+python3 run.py prime              # just one problem
+python3 run.py --lang py          # only Python solutions
+python3 run.py prime --lang cpp   # one problem, one language
 ```
 
-It needs Python 3. On Windows the command is `python`. Solutions in languages you don't have installed are skipped. Codespaces has all of them: Python, Node, C, C++, Java, Go and Rust.
+It needs Python 3. On Windows the command is `python`. Solutions in languages you don't have installed are skipped.
+
+**Supported languages:** `py`, `js`, `c`, `cpp`, `java`, `go`, `rs`
+
+The runner reports timing for each solution and shows a final summary:
+
+```text
+Summary: 12 passed, 0 failed, 3 skipped
+```
+
+Codespaces has all languages installed. By default, solutions timeout after 10 seconds. Individual problems can override this by adding a `timeout.txt` file with the limit in seconds.
 
 ## Layout
 
